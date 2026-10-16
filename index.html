@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capsule CRM Guide · Robert Turner Associates · Time Assist</title>
+<style>
+:root{
+  --primary:#662D91; --dark:#3C1858; --light:#F0E6F6;
+  --ink:#1f1a24; --muted:#5c5566; --line:#e7dff0;
+  --bg:#faf8fc; --white:#ffffff;
+  --warn-bg:#fff4e6; --warn-line:#f0b060;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,var(--primary),var(--dark));color:#fff;padding:44px 0 38px}
+header h1{margin:0 0 10px;font-size:31px;line-height:1.22;font-weight:700}
+header p.lede{margin:0;font-size:17px;opacity:.94;max-width:62ch}
+.meta{margin-top:18px;font-size:14px;opacity:.85}
+nav.tabs{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+nav.tabs .wrap{display:flex;gap:4px}
+.tab{background:none;border:0;border-bottom:3px solid transparent;padding:15px 18px;
+  font-size:15px;font-weight:600;color:var(--muted);cursor:pointer;font-family:inherit}
+.tab[aria-selected="true"]{color:var(--primary);border-bottom-color:var(--primary)}
+.tab:focus-visible{outline:2px solid var(--primary);outline-offset:-2px}
+main{padding:30px 0 70px}
+.panel{display:none}
+.panel.active{display:block}
+details.sec{background:var(--white);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;overflow:hidden}
+details.sec>summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;align-items:center;gap:13px;font-weight:600;font-size:16.5px}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary:focus-visible{outline:2px solid var(--primary);outline-offset:-2px}
+.n{background:var(--primary);color:#fff;width:27px;height:27px;border-radius:50%;
+  display:inline-flex;align-items:center;justify-content:center;font-size:13.5px;flex:0 0 27px}
+.chev{margin-left:auto;color:var(--primary);transition:transform .18s;font-size:13px}
+details.sec[open]>summary .chev{transform:rotate(90deg)}
+.body{padding:2px 18px 20px 58px}
+.body p{margin:0 0 14px}
+.body ul{margin:0 0 14px;padding-left:20px}
+.body li{margin-bottom:7px}
+h3.mini{margin:22px 0 9px;font-size:15px;color:var(--dark)}
+table{width:100%;border-collapse:collapse;margin:0 0 16px;font-size:14.5px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--light);font-weight:600;color:var(--dark)}
+.box{border-radius:8px;padding:13px 16px;margin:0 0 16px;font-size:15px}
+.box p{margin:0 0 8px}
+.box p:last-child{margin-bottom:0}
+.tip{background:var(--light);border-left:4px solid var(--primary)}
+.warn{background:var(--warn-bg);border-left:4px solid var(--warn-line)}
+.videowrap{position:relative;padding-bottom:56.25%;height:0;border-radius:10px;overflow:hidden;margin:0 0 20px;background:#000}
+.videowrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.intro{font-size:16.5px;color:var(--muted);margin:0 0 22px}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:14px;background:var(--white)}
+@media (max-width:620px){
+  header h1{font-size:25px}
+  .body{padding:2px 16px 18px 16px}
+  .tab{padding:13px 12px;font-size:14px}
+}
+@media print{
+  nav.tabs{display:none}
+  .panel{display:block !important}
+  details.sec{break-inside:avoid}
+  details.sec>summary .chev{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Capsule CRM Guide</h1>
+    <p class="lede">How your Capsule is being set up for the architecture and party wall work, with the recording of each session.</p>
+    <div class="meta">Prepared for Robert and Julia · Robert Turner Associates</div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Sections">
+  <div class="wrap">
+    <button class="tab" id="tab-guide" role="tab" aria-selected="true" aria-controls="panel-guide">Guide</button>
+    <button class="tab" id="tab-sessions" role="tab" aria-selected="false" aria-controls="panel-sessions">Sessions</button>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+  <section class="panel active" id="panel-guide" role="tabpanel" aria-labelledby="tab-guide">
+
+    <p class="intro">Your Capsule account is open and Jaanika is now setting it up from what we discussed. This guide sets out what is agreed so far, and it is updated after each call. The recording of every session is in the Sessions tab.</p>
+
+    <div class="box tip">
+      <p><strong>Next call: Thursday 22 October at 11am, for an hour.</strong></p>
+      <p>Before then, please send the two things listed under Actions in the Sessions tab: the party wall process with the must-haves highlighted, and the spreadsheet of current live projects.</p>
+    </div>
+
+    <div class="box warn">
+      <p>The aim is a system you use, not one you feed. Only what you need at a glance or in a report becomes a field. Everything else goes in the notes on the record, where it is still there and searchable.</p>
+    </div>
+
+    <details class="sec" open>
+      <summary><span class="n">1</span> Your Capsule account<span class="chev">▶</span></summary>
+      <div class="body">
+        <table>
+          <tr><th>Item</th><th>Detail</th></tr>
+          <tr><td>Web address</td><td>robertturnerassociates.capsulecrm.com</td></tr>
+          <tr><td>Plan</td><td>Starter, on a 14-day free trial, set to pay monthly</td></tr>
+          <tr><td>Users</td><td>Two to start, each shared by two people. Robert and Josie share one</td></tr>
+          <tr><td>Billing</td><td>No card details are needed yet. Jaanika will take you through it on the next call, which falls within the trial</td></tr>
+        </table>
+        <p>Starter gives you one sales pipeline and one project board. A second project board needs the Growth plan. Jaanika is working out how both services can run on one board first, so you only upgrade if you find you need to.</p>
+        <p>On the next call, Jaanika will also show you how to change the password and set up the security settings.</p>
+      </div>
+    </details>
+
+    <details class="sec">
+      <summary><span class="n">2</span> One sales pipeline for both services<span class="chev">▶</span></summary>
+      <div class="body">
+        <p>Enquiries for architecture and for party wall work follow the same steps. The enquiry comes in, you arrange a call, and you send the quote. So both services share one sales pipeline, and each enquiry is an opportunity in Capsule.</p>
+        <ul>
+          <li>A quote stays in the pipeline until the client accepts it, because that is when they agree you are doing the work.</li>
+          <li>The pipeline answers questions such as how many enquiries came in, or how many quotes went out, in a given month.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="sec">
+      <summary><span class="n">3</span> Projects and stages<span class="chev">▶</span></summary>
+      <div class="body">
+        <p>Once a quote is accepted, the job becomes a project. From there the two services run differently.</p>
+        <table>
+          <tr><th>Service</th><th>Stages</th></tr>
+          <tr><td>Architecture</td><td>Planning, Building Regulations, Health and Safety</td></tr>
+          <tr><td>Party wall</td><td>Service of notice, Service of award</td></tr>
+        </table>
+        <p>Stages can overlap. A job in a hurry may run planning and building regulations together, and planning conditions sometimes need dealing with during building regulations. The steps within each stage are a workflow of tasks, and several can run at the same time. Not every job follows every step in the same order.</p>
+        <h3 class="mini">At a glance</h3>
+        <p>The overview you both look at shows five things for each project:</p>
+        <ul>
+          <li>Project reference number</li>
+          <li>Address</li>
+          <li>Stage</li>
+          <li>Next task</li>
+          <li>Who the next task is with: one of you, the client, the planners or another specialist</li>
+        </ul>
+        <p>Everything else stays on the project record, there whenever you open it.</p>
+      </div>
+    </details>
+
+    <details class="sec">
+      <summary><span class="n">4</span> Party wall notices<span class="chev">▶</span></summary>
+      <div class="body">
+        <p>A party wall job can involve one adjoining owner or many, and each of them needs tracking separately. For each adjoining owner, the project records:</p>
+        <ul>
+          <li>Whether the notice has been served</li>
+          <li>Their response: consent, which ends it for that owner, or dissent, which needs a party wall award</li>
+          <li>No response after 14 days: a further notice giving 10 days</li>
+          <li>No response after that: a surveyor appointed on their behalf</li>
+        </ul>
+        <p>Each step is recorded on the project, with a reminder when each period runs out. That way, a notice not yet served on one owner shows up, rather than hiding behind one that has been.</p>
+        <p>Other people on the job, such as structural engineers, go on the project with their details. Your role on each side of a job, whether building owner's surveyor, adjoining owner's surveyor or agreed surveyor, can be added later once the basics are running.</p>
+      </div>
+    </details>
+
+    <details class="sec">
+      <summary><span class="n">5</span> Invoicing<span class="chev">▶</span></summary>
+      <div class="body">
+        <p>Architecture jobs usually have two stage invoices on the quoted work. Extras quoted during the job are invoiced separately.</p>
+        <p>One option is a task for Josie whenever a stage needs invoicing. She ticks it off once the invoice is out, so everyone can see it has been done. This can be added after the first version if you prefer.</p>
+      </div>
+    </details>
+
+    <details class="sec">
+      <summary><span class="n">6</span> Your existing data<span class="chev">▶</span></summary>
+      <div class="body">
+        <ul>
+          <li>Live projects from your main project spreadsheet are imported in bulk, rather than typed in one at a time. The tracker for live architectural projects is used to fill in the detail.</li>
+          <li>Some live jobs sit under an old project number, such as a job that has come back after a few years. These need adding to the list.</li>
+          <li>When a job goes quiet, close the project. If the client comes back, reopen it, with everything still there.</li>
+          <li>The GDPR spreadsheet is not needed. The information will be on each record and searchable.</li>
+        </ul>
+      </div>
+    </details>
+
+  </section>
+
+  <section class="panel" id="panel-sessions" role="tabpanel" aria-labelledby="tab-sessions">
+
+    <p class="intro">Each session is recorded here with the key points and the actions agreed. More are added after each call.</p>
+
+    <details class="sec" open>
+      <summary><span class="n">1</span> Setup planning — 13 October 2026<span class="chev">▶</span></summary>
+      <div class="body">
+        <div class="videowrap">
+          <iframe data-src="https://www.loom.com/embed/b053faaed22244a386df019abec508c3" loading="lazy" allowfullscreen title="Session 1 recording"></iframe>
+        </div>
+        <h3 class="mini">What we covered</h3>
+        <ul>
+          <li>Where the party wall and architecture services overlap, and where they branch apart</li>
+          <li>Robert's party wall process, from serving notices to awards</li>
+          <li>Which information you need in reports or at a glance, and which only needs to be on the record</li>
+          <li>The spreadsheets Julia sent: the main project spreadsheet and the tracker for live architectural projects</li>
+          <li>The project stages for each service, and how invoicing works</li>
+          <li>Opening your Capsule account on the Starter plan</li>
+        </ul>
+        <h3 class="mini">Notes</h3>
+        <p><strong>Two services, one pipeline.</strong> Enquiry, call and quote work the same way for both services, so the sales side is shared. Project delivery is where they differ, with three stages for architecture and two for party wall.</p>
+        <p><strong>Simple at the top, detail underneath.</strong> You both want a short overview: project number, address, stage, next task and who it is with. The detail lives on each record, and nothing should turn into an admin chore.</p>
+        <p><strong>Start simple and add later.</strong> Some things, such as your role on each side of a party wall job, can come in once you have used Capsule for a while. A follow-up session after a few months is a good point to look at those.</p>
+        <h3 class="mini">Actions</h3>
+        <h3 class="mini" style="color:var(--primary)">Robert</h3>
+        <ul>
+          <li>Re-send your party wall process email with the must-have information highlighted, including the steps that need a reminder</li>
+        </ul>
+        <h3 class="mini" style="color:var(--primary)">Robert and Julia</h3>
+        <ul>
+          <li>Send back the main project spreadsheet with only the current live projects</li>
+          <li>Add any live jobs that sit under an old project number</li>
+        </ul>
+        <h3 class="mini" style="color:var(--primary)">Jaanika</h3>
+        <ul>
+          <li>Send the invite for Thursday 22 October at 11am</li>
+          <li>Set up Capsule from what we discussed, including how both services run on one project board</li>
+          <li>Import your live projects once the spreadsheet is back</li>
+          <li>On the next call: take you through the setup, billing and security, and add a current quote together as a live example</li>
+        </ul>
+      </div>
+    </details>
+
+  </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Time Assist · Capsule CRM setup and enablement</div>
+</footer>
+
+<script>
+(function(){
+  function loadOpenVideos(){
+    document.querySelectorAll('.panel.active details[open] iframe[data-src]').forEach(function(f){
+      if(!f.getAttribute('src')){f.setAttribute('src',f.getAttribute('data-src'));}
+    });
+  }
+  var tabs=document.querySelectorAll('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){
+        x.setAttribute('aria-selected','false');
+        var p=document.getElementById(x.getAttribute('aria-controls'));
+        if(p){p.classList.remove('active');}
+      });
+      t.setAttribute('aria-selected','true');
+      var panel=document.getElementById(t.getAttribute('aria-controls'));
+      if(panel){panel.classList.add('active');}
+      window.scrollTo({top:0,behavior:'smooth'});
+      loadOpenVideos();
+    });
+  });
+  document.querySelectorAll('details.sec').forEach(function(d){
+    d.addEventListener('toggle',loadOpenVideos);
+  });
+  loadOpenVideos();
+})();
+</script>
+</body>
+</html>
